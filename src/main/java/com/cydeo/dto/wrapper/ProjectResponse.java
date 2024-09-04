@@ -3,7 +3,6 @@ package com.cydeo.dto.wrapper;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 import org.springframework.http.HttpStatus;
-import org.springframework.stereotype.Component;
 
 @Getter
 @Setter
