@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(value = "user-service",url = "localhost:8081")
+@FeignClient(value = "user-service")
 public interface UserClient {
 
     @GetMapping("/api/v1/user/check/{username}")

@@ -21,7 +21,7 @@ import javax.annotation.security.RolesAllowed;
 import javax.validation.Valid;
 import java.util.List;
 import java.util.Map;
-
+@CrossOrigin(value = "http://localhost:8762")
 @RestController
 @RequestMapping("/api/v1/task")
 @Tag(name = "TaskController", description = "Task controller endpoints")
